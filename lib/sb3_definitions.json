@@ -374,7 +374,7 @@
                 },
                 "rotationStyle": {
                     "type": "string",
-                    "enum": ["all around", "don't rotate", "left-right"]
+                    "enum": ["all around", "don't rotate", "left-right", "look at", "up-down"]
                 },
                 "layerOrder": {
                     "type": "integer",
