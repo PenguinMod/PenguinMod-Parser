@@ -327,10 +327,6 @@
                 "videoTransparency": {
                     "type": "number"
                 },
-                "videoState": {
-                    "type": "string",
-                    "enum": ["on", "off", "on-flipped"]
-                },
                 "layerOrder": {
                     "type": "integer",
                     "enum": [0],
