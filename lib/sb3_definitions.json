@@ -205,10 +205,28 @@
             "minItems": 3,
             "maxItems": 5
         },
+        "unknown_primitive": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "number",
+                    "enum": [14]
+                },
+                {"type": "string", "description": "block opcode"},
+                {"type": "string", "description": "field id"},
+                {"type": "object", "description": "field value"}
+            ],
+            "additionalItems": {
+                "type": "number"
+            },
+            "minItems": 4,
+            "maxItems": 6
+        },
         "topLevelPrimitive": {
             "oneOf": [
                 {"$ref":"#/definitions/variable_primitive"},
-                {"$ref":"#/definitions/list_primitive"}
+                {"$ref":"#/definitions/list_primitive"},
+                {"$ref":"#/definitions/unknown_primitive"}
             ]
         },
         "inputPrimitive": {
@@ -218,7 +236,8 @@
                 {"$ref":"#/definitions/text_primitive"},
                 {"$ref":"#/definitions/broadcast_primitive"},
                 {"$ref":"#/definitions/variable_primitive"},
-                {"$ref":"#/definitions/list_primitive"}
+                {"$ref":"#/definitions/list_primitive"},
+                {"$ref":"#/definitions/unknown_primitive"}
             ]
         },
         "block": {
