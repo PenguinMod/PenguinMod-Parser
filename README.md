@@ -1,10 +1,6 @@
 # scratch-parser
 
-#### Parser for Scratch projects
-
-[![Build Status](https://travis-ci.org/LLK/scratch-parser.svg?branch=develop)](https://travis-ci.org/LLK/scratch-parser)
-[![dependencies Status](https://david-dm.org/llk/scratch-parser/status.svg)](https://david-dm.org/llk/scratch-parser)
-[![devDependencies Status](https://david-dm.org/llk/scratch-parser/dev-status.svg)](https://david-dm.org/llk/scratch-parser?type=dev)
+#### Parser for PenguinMod projects (modified from Scratch)
 
 ## Overview
 The Scratch Parser is a [Node.js](https://nodejs.org) module that parses and validates [Scratch](https://scratch.mit.edu) projects.
