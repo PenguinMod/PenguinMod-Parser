@@ -22,9 +22,7 @@
                     "type": "string"
                 }
             },
-            "required": [
-                "semver"
-            ]
+            "required": []
         },
         "targets": {
             "type": "array",
@@ -45,7 +43,6 @@
         }
     },
     "required": [
-        "meta",
         "targets"
     ]
 }
