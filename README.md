@@ -1,4 +1,4 @@
-# scratch-parser
+# PenguinMod-Parser
 
 #### Parser for PenguinMod projects (modified from Scratch)
 
