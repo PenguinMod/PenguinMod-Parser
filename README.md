@@ -1,6 +1,7 @@
 # PenguinMod-Parser
 
 #### Parser for PenguinMod projects (modified from Scratch)
+This README has not been changed much from Scratch, so some steps may not be the same.
 
 ## Overview
 The Scratch Parser is a [Node.js](https://nodejs.org) module that parses and validates [Scratch](https://scratch.mit.edu) projects.
