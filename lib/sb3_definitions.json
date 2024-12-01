@@ -31,10 +31,19 @@
         },
         "scalarVal": {
             "oneOf": [
-                {"$ref":"#/definitions/stringOrNumber"},
-                {"type": "boolean"}
+                {"$ref": "#/definitions/stringOrNumber"},
+                {"type": "boolean"},
+                {
+                    "type": "object",
+                    "properties": {
+                        "customType": {"type": "boolean"},
+                        "typeId": {"type": "string"},
+                        "serialized": {}
+                    },
+                    "required": ["customType", "typeId", "serialized"]
+                }
             ]
-        },
+        }
         "assetId": {
             "type": "string",
             "pattern": "^[a-fA-F0-9]{32}$"
