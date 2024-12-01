@@ -32,16 +32,7 @@
         "scalarVal": {
             "oneOf": [
                 {"$ref": "#/definitions/stringOrNumber"},
-                {"type": "boolean"},
-                {
-                    "type": "object",
-                    "properties": {
-                        "customType": {"type": "boolean"},
-                        "typeId": {"type": "string"},
-                        "serialized": {}
-                    },
-                    "required": ["customType", "typeId", "serialized"]
-                }
+                {"type": "boolean"}
             ]
         }
         "assetId": {
