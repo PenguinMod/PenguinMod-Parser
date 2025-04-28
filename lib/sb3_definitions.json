@@ -87,7 +87,7 @@
                 "assetId": { "$ref": "#/definitions/assetId"},
                 "dataFormat": {
                     "type": "string",
-                    "enum": ["wav", "wave", "mp3"]
+                    "enum": ["wav", "wave", "mp3", "ogg", "flac"]
                 },
                 "md5ext": {
                     "type": "string",
